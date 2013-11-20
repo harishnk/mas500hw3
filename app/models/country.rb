@@ -17,7 +17,7 @@ class Country < ActiveRecord::Base
   end
 
   def google_feed_url
-    "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=3&q="+ self.rss_url
+    "http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=4&q="+ self.rss_url
   end
 
   def rss_url
